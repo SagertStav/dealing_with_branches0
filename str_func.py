@@ -1,4 +1,6 @@
-def hi_reg_str(any_string):
-    return any_string.upper()
+""" Модуль описаний функций. Работа с текстовыми строками """
 
-#print(hi_reg_str("drova"))
+def hi_reg_str(any_string):
+""" Функция hi_reg_str(any_string) возвращает всю строку (текст) прописными буквами """    
+
+    return any_string.upper()
